@@ -159,6 +159,7 @@
   
   .habilidade-item:hover::after {
     width: 100%;
+    filter: drop-shadow(10px 0 30px #fff);
   }
   
   
@@ -223,6 +224,7 @@
   }
   
   .projetos-card {
+    
     background: rgba(255, 255, 255, 0.05);
     border-radius: 16px;
     border: 1px solid var(--vidro);
@@ -245,6 +247,7 @@
     height: 200px;
     width: 100%;
     object-fit: cover;
+    
   }
   
   .projetos-paragrafo {
@@ -433,11 +436,19 @@
     .menu-link {
       font-size: 0.9rem;
     }
-  
+    
+    .p {
+      font-size: 0.5rem;
+    }
     .butt button {
       font-size: 0.9rem;
       padding: 0.5rem 1rem;
     }
+  } 
+
+  @media (max-width: 320px){
+   
+    .p{
+      font-size: 0.4rem;
+    }
   }
-  
-  
